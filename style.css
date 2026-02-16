@@ -45,10 +45,6 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-.nav-link {
-  display:flex;
-  gap: 20px;
-}
 
     .hero {
       padding: 100px 8%;
@@ -280,11 +276,7 @@ nav ul li a:hover {
     .services {
         flex-direction: column;
     }
-}
-@media (max-width: 768px) {
-  .nav-link {
-    flex-direction: column;
-  }
+
 }
 @media (max-width: 768px) {
 
@@ -356,3 +348,4 @@ section {
     color: #555;
     line-height: 1.6;
 }
+
